@@ -39,3 +39,16 @@
 .aboutus{
     text-align: center;
 }
+
+.services{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#servicesimage{
+    width: 100%;
+}
