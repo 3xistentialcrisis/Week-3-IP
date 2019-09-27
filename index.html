@@ -9,75 +9,18 @@
 <body>
   <div class="container">
       <div class="welcome">
-          
+          <div class="row">
+              <div class="jumbotron">
+                  <img src="" alt="Welcome Logo">
+                  <p><br><strong>WELCOME<br> TO DELANI STUDIOS</strong></p>
+                  <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                  <img src="" alt="">
+              </div>
+          </div> 
       </div>
 
   </div> 
   
-  
-  >
-    <div class="row">
-      <img src="images/ghana.gif" alt="Ghana Flag" class="flag">
-      <h1><strong>WELCOME</strong></h1>
-      <h2><em>TO YOUR AKAN NAME!!</em></h2>
-    
-      <div class="akan">
-        <h3> About</h3>
-        <p><strong>This Application tells you your <em>Akan</em> name based on your birthday!</strong></p>
-        <p><em>Akan</em> names are derived from Ghanian culture, and are given as <em>day names</em> which correspond to the day of the week that you were born!</p>
-      </div> 
-
-      <div class="steps">
-        <h4><strong>Steps</strong></h4>
-        <ol>
-            <li>Enter your birthday through the form below</li>
-            <li>Chose what gender you are</li>
-            <li>Click the <strong>SUBMIT</strong> button to see what your <em>Akan</em> name is!</li>
-        </ol>
-      </div>
-    </div>
-
-    <div class="row">
-    <div class="forms">
-      <div class="col-md-12">
-        <div class="birthday">
-          <form name="akanNames" onsubmit="event.preventDefault(); akanname()">
-            <div class = "Gender">
-              <h2>Gender</h2>
-            </div>
-
-              <select name="gender" id="gender">
-                  <option name="male" value="male">Male</option>
-                  <option name="female" value="female">Female</option>
-              </select>
-
-            <div class="DOB">
-              <h2>
-                  Date of birth
-              </h2>                        
-              <input name="date" type="date"/>Date<br><br>
-              <input type="submit" value="Submit">
-            </div>
-          </form>
-        </div>
-      </div>            
-    </div>
-    </div>
-  </div>
-
-  <div>
-    <div class="container" id="answer" style="display:none" > 
-      <div class ="jumbotron "> 
-       <div class="card">
-       <div class="answer">
-               <p>
-                   Your Akan name is <span id="alert"></span>
-               </p>  
-       </div>
-       </div>   
-    </div>
-   </div>
-  </div> 
   <script src="js/script.js"></script>
 </body>
 </html>
