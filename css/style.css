@@ -1,6 +1,24 @@
+.top-center{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .centered{
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#welcomeimage{
+    width: 100%;
+}
+
+.bottom-center{
+    position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 }
