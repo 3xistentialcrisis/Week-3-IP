@@ -5,12 +5,25 @@
     transform: translate(-50%, -50%);
 }
 
+#welcometitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: xx-large;
+    line-height: 70px;
+}
+
+#amazing{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
+    line-height: 70px;
+}
 .centered{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+    text-align: center;
 }
 
 #welcomeimage{
