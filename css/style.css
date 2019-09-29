@@ -32,20 +32,22 @@
 
 #mouseclick{
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .aboutus{
     text-align: center;
+    font-size: small;
 }
 
 .services{
     text-align: center;
+    font-size: small;
     color: white;
     position: absolute;
-    top: 150%;
+    top: 125%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -54,8 +56,17 @@
     width: 100%;
 }
 
+h1{
+    font-size: x-large;
+}
 h3{
     text-align: center;
+}
+
+.whatwedo{
+    width: 80%;
+    float: right;
+    padding: 20px;
 }
 
 .column{
@@ -85,18 +96,55 @@ h4{
 
 #contactus{
     position:absolute;
-    top:310%;
+    top:230%;
     left:50%;
     transform: translate(-50%, -50%);
+    font-size: large;
+    color: white;
+}
+
+#contactimage{
+    width: 100%;
 }
 
 .contactform{
     position: absolute;
-    top: 350%;
+    top: 250%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+::-webkit-input-placeholder{
+    color: white;
+}
+
 .delani{
     font-size:"small";
+    text-align: center;
 }
+
+.socialicons{
+    float: left;
+    width: 20%;
+    justify-content: center;
+}
+
+#message{
+    height: 200px;
+    width: 600px;
+    background-color: transparent;
+}
+
+input{
+    background-color: transparent;
+}
+
+.portfolio{
+    float: left;
+    width: 80%;
+}
+.hidedesign{
+    display: none;
+}
+
+
