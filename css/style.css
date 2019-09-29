@@ -30,8 +30,9 @@
     width: 100%;
 }
 
-.bottom-center{
+#mouseclick{
     position: absolute;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -44,7 +45,7 @@
     text-align: center;
     color: white;
     position: absolute;
-    top: 120%;
+    top: 150%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -52,3 +53,18 @@
 #servicesimage{
     width: 100%;
 }
+
+h3{
+    text-align: center;
+}
+
+.column{
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
