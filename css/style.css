@@ -67,4 +67,18 @@ h3{
     content: "";
     display: table;
     clear: both;
-  }
+}
+
+#baileywonger{
+    position: absolute;
+    top: 270%;
+    left: 85%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: larger;
+}
+
+h4{
+    text-align: center;
+    text-emphasis: bold;
+}
