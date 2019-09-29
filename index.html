@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Delani Studios</title>
-    <!-- <link href="css/bootstrap.css" rel="stylesheet" type="text/css"> -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha384-mlceH9HlqLp7GMKHrj5Ara1+LvdTZVMx4S1U43/NxCvAkzIo8WJ0FE7duLel3wVo" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
@@ -66,48 +66,53 @@
         <div class=row>
             <h4><strong>PORTFOLIO</strong></h4>
 
-            <div class="column">
-                <img src="resources/assets/portfolio/work4.jpg" alt="work4">
-            </div>
+            <div class="portfolio">
+                <div class="column">
+                    <img src="resources/assets/portfolio/work4.jpg" alt="work4">
+                </div>
 
-            <div class="column">
-                <img src="resources/assets/portfolio/work3.jpg" alt="work3">
-            </div>
+                <div class="column">
+                    <img src="resources/assets/portfolio/work3.jpg" alt="work3">
+                </div>
 
-            <div class="column">
-                <img src="resources/assets/portfolio/work2.jpg" alt="work2">
-            </div>
+                <div class="column">
+                    <img src="resources/assets/portfolio/work2.jpg" alt="work2">
+                </div>
 
-            <div class="column">
-                <img src="resources/assets/portfolio/work1.jpg" alt="work1">
-            </div>
+                <div class="column">
+                    <img src="resources/assets/portfolio/work1.jpg" alt="work1">
+                </div>
 
-            <div class="column">
-                <img src="resources/assets/portfolio/work5.jpg" alt="work5">
-            </div>
+                <div class="column">
+                    <img src="resources/assets/portfolio/work5.jpg" alt="work5">
+                </div>
 
-            <div class="column">
-                <img src="resources/assets/portfolio/work6.jpg" alt="work6">
-            </div>
+                <div class="column">
+                    <img src="resources/assets/portfolio/work6.jpg" alt="work6">
+                </div>
 
-            <div class="column">
-                <img src="resources/assets/portfolio/work7.jpg" alt="work7">
-            </div>
+                <div class="column">
+                    <img src="resources/assets/portfolio/work7.jpg" alt="work7">
+                </div>
 
-            <div class="column">
-                <img src="resources/assets/portfolio/work8.jpg" alt="work8">
-                <p id="baileywonger"><strong>BAILEY WONGER</strong></p> 
+                <div class="column">
+                    <img src="resources/assets/portfolio/work8.jpg" alt="work8">
+                    <p id="baileywonger"><strong>BAILEY WONGER</strong></p> 
+                </div>
             </div>
+            
         </div>
 
         <div class=row>
             <img src="resources/assets/backgrounds/c_image.jpg" alt="ContactImage">
             <p id="contactus"><strong>CONTACT US</strong></p>
             <div class="contactform">    
-                <form>
-                    <input type="text" name="Name...">
-                    <input id="email" type="text" name="Email..."> 
+                <form action="action_page.php" method="GET">
+                    <input type="text" name="Name" placeholder="Name...">
+                    <input id="email" type="text" name="Email" placeholder="Email..."> 
+                    <br><br>
                 </form>
+                <textarea id="message" name="Your Message" placeholder="Your message here..."></textarea>
             </div>
         </div>
 
@@ -150,13 +155,13 @@
                 </div>
 
             </div>
-            
+        </div>
+
+        <div class="row">
             <div class="delani">
                 <p>DELANI STUDIO</p>
                 <p>2019</p>
             </div>
-            
-
         </div>
 
     </div>
