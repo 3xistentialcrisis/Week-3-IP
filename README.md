@@ -12,7 +12,7 @@ This page was created through vs code and command line.
 HTML, CSS, JavaScript and jQuery were used to create this program. 
 This program also employes Bootstrap.
 ## BDD
-This program:
+This program:<br>
 Hides and Reveals description of services offered - Click the Icons - The Icons and Text appear and disappears when clicked.<br>
 Hovers over the images on the portfolio section to obtain a description of each image - Move the cursor over the images	 & a description of each image should appear.<br>
 Contacts Delani Studios - Enter your email address and message in the contact form - A pop up alerting you to Delani Studio's receipt of your message is displayed.<br>
