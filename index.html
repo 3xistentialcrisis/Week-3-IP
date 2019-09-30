@@ -10,7 +10,8 @@
 
 <body>
     <div class="container">
-        
+
+    <!-- // WELCOME SECTION  -->
         <div class="row">
             <img id="welcomeimage" src="resources/assets/backgrounds/h_img.jpg" alt="Welcome Background">
             <div class="top-center">
@@ -23,6 +24,7 @@
             <img id="mouseclick" src="resources/assets/mouse_click.png" alt="Mouse Click">  
         </div>
 
+    <!-- // ABOUT US SECTION -->
         <div class="row">
             <div class="aboutus">
                 <h1><strong>ABOUT US</strong></h1>
@@ -33,6 +35,8 @@
                 <p>Then we help translate them into effective and elegant.</p>
             </div>    
         </div> 
+    
+    <!-- // SERVICES SECTION  -->
 
         <div class="row">
             <img id="servicesimage" src="resources/assets/backgrounds/s_image.jpg" alt="Services">
@@ -44,13 +48,14 @@
             </div>
         </div>
 
+    <!-- //WHAT WE DO SECTION -->
         <div class="row">
             <h3><strong>WHAT WE DO</strong></h3>
 
             <div class="whatwedo">
                 <div class="column">
                     <img class="clickable_1" src="resources/assets/services_icons/design_icon.png" alt="Design">
-                    <p><strong>DESIGN</strong></p>
+                    <p>DESIGN</p>
                     <div class="hidedesign">
                         <span class="clickable_1">
                             <p>Our design practice offers a full range of services <br> 
@@ -67,7 +72,7 @@
                 
                 <div class="column">
                     <img class="clickable_2" src="resources/assets/services_icons/dev_icon.png" alt="Development">
-                    <p><strong>DEVELOPMENT</strong></p>
+                    <p>DEVELOPMENT</p>
                     <div class="hidedevelopment">
                         <span class="clickable_2">
                             <p>All engineers are fluent in the latest enterprise, mobile <br>
@@ -81,13 +86,12 @@
                 
                 <div class="column">
                     <img span="clickable_3" src="resources/assets/services_icons/product_icon.png" alt="Product Management">
-                    <p><strong>PRODUCT MANAGEMENT</strong></p>
+                    <p>PRODUCT MANAGEMENT</p>
                     <div class="hideproduct">
                         <span class="clickable_3">
                             <p>Planning and development is iterative. Because we are <br> 
                             constantly coding and testing, the products we build are <br> 
                             always ready to go live. <br> 
-                            <br>
                             This iterative process allows for changes as business <br> 
                             requirements evolve.</p>
                         </span>
@@ -97,24 +101,24 @@
 
         </div>
 
-        
-            <h4><strong>PORTFOLIO</strong></h4>
+    <!-- //PORTFOLIO SECTION -->
+        <h4><strong>PORTFOLIO</strong></h4>
         <div class=row>
             <div class="portfolio">
                 <div class="column">
-                    <img src="resources/assets/portfolio/work4.jpg" width="200px" height="150px" alt="work4">
+                    <img id="port1" src="resources/assets/portfolio/work4.jpg" width="200px" height="150px" alt="work4">
                 </div>
 
                 <div class="column">
-                    <img src="resources/assets/portfolio/work3.jpg" width="200px" height="150px" alt="work3">
+                    <img id="port2" src="resources/assets/portfolio/work3.jpg" width="200px" height="150px" alt="work3">
                 </div>
 
                 <div class="column">
-                    <img src="resources/assets/portfolio/work2.jpg" width="200px" height="150px" alt="work2">
+                    <img id="port3" src="resources/assets/portfolio/work2.jpg" width="200px" height="150px" alt="work2">
                 </div>
 
                 <div class="column">
-                    <img src="resources/assets/portfolio/work1.jpg" width="200px" height="150px" alt="work1">
+                    <img id="port4" src="resources/assets/portfolio/work1.jpg" width="200px" height="150px" alt="work1">
                 </div>
             </div>    
         </div>        
@@ -123,41 +127,48 @@
         <div class=row>
             <div class="portfolio">
                 <div class="column">
-                    <img src="resources/assets/portfolio/work5.jpg" width="200px" height="150px" alt="work5">
+                    <img id="port5" src="resources/assets/portfolio/work5.jpg" width="200px" height="150px" alt="work5">
                 </div>
 
                 <div class="column">
-                    <img src="resources/assets/portfolio/work6.jpg" width="200px" height="150px" alt="work6">
+                    <img id="port6" src="resources/assets/portfolio/work6.jpg" width="200px" height="150px" alt="work6">
                 </div>
 
                 <div class="column">
-                    <img src="resources/assets/portfolio/work7.jpg" width="200px" height="150px" alt="work7">
+                    <img id="port7" src="resources/assets/portfolio/work7.jpg" width="200px" height="150px" alt="work7">
                 </div>
 
                 <div class="column">
-                    <img src="resources/assets/portfolio/work8.jpg" width="200px" height="150px" alt="work8">
+                    <img id="port8" src="resources/assets/portfolio/work8.jpg" width="200px" height="150px" alt="work8">
                     <p id="baileywonger"><strong>BAILEY WONGER</strong></p> 
                 </div>
             </div>
 
         </div>
         <br><br>
+    
+    <!-- //CONTACT US SECTION -->
 
         <div class=row>
             <img id ="contactimage" src="resources/assets/backgrounds/c_image.jpg" alt="ContactImage">
             <p id="contactus"><strong>CONTACT US</strong></p>
+
             <div class="contactform">    
-                <form action="action_page.php" method="GET">
+                <form class="message" method="POST">
                     <input type="text" name="Name" placeholder="Name...">
                     <input id="email" type="text" name="Email" placeholder="Email..."> 
-                    <button type="submit" id="submit">Submit</button>
                     <br><br>
+                
+                    <textarea class="message" name="Your Message" placeholder="Your message here..." cols="90" rows="10"></textarea>
+                    <button type="submit" id="submit">Submit</button>
                 </form>
-                <textarea id="message" name="Your Message" placeholder="Your message here..."></textarea>
+                <br>
+                
             </div>
         </div>
         <br> 
 
+    <!-- SOCIAL MEDIA SECTION -->
         <div class=row>
             <div class="socialicons">
                 <img src="resources/assets/social_icons/twitter.png" alt="twitter">
